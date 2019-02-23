@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HubSpot Test Automation Regression Suite" duration-ms="15126" started-at="2019-02-23T14:55:52Z" finished-at="2019-02-23T14:56:07Z">
+    <groups>
+    </groups>
+    <test name="HubSpot Regression Test Cases2" duration-ms="7978" started-at="2019-02-23T14:55:52Z" finished-at="2019-02-23T14:56:00Z">
+      <class name="com.qa.hubspot.tests.LoginTest">
+        <test-method status="PASS" signature="loginTest(java.lang.String)[pri:0, instance:com.qa.hubspot.tests.LoginTest@42dafa95]" name="loginTest" duration-ms="7951" started-at="2019-02-23T14:55:52Z" finished-at="2019-02-23T14:56:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.qa.hubspot.tests.LoginTest -->
+    </test> <!-- HubSpot Regression Test Cases2 -->
+    <test name="HubSpot Regression Test Cases1" duration-ms="15126" started-at="2019-02-23T14:55:52Z" finished-at="2019-02-23T14:56:07Z">
+      <class name="com.qa.hubspot.tests.LoginTest">
+        <test-method status="PASS" signature="loginTest(java.lang.String)[pri:0, instance:com.qa.hubspot.tests.LoginTest@5c3bd550]" name="loginTest" duration-ms="15100" started-at="2019-02-23T14:55:52Z" finished-at="2019-02-23T14:56:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.qa.hubspot.tests.LoginTest -->
+    </test> <!-- HubSpot Regression Test Cases1 -->
+  </suite> <!-- HubSpot Test Automation Regression Suite -->
+</testng-results>

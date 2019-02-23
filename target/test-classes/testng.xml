@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HubSpot Test Automation Regression Suite" parallel="tests" thread-count="5">
+
+	<test name="HubSpot Regression Test Cases1" >
+		<parameter name="sheetname" value="login" />
+		<classes>
+			<class name="com.qa.hubspot.tests.LoginTest"></class>
+		</classes>
+	</test>
+	
+	<test name="HubSpot Regression Test Cases2">
+		<parameter name="sheetname" value="login1" />
+		<classes>
+			<class name="com.qa.hubspot.tests.LoginTest"></class>
+		</classes>
+	</test>
+</suite>
